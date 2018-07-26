@@ -1,0 +1,887 @@
+<!DOCTYPE html><!--[if lt IE 8 ]><html class='ie ko-kr'><![endif]--><!--[if IE 8 ]><html class='ie ie8 ko-kr'><![endif]--><!--[if IE 9 ]><html class='ie ie9 ko-kr'><![endif]--><html lang="ko-kr">    <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="keywords" content=""/><meta name="description" content=""/><meta http-equiv="Content-Language" content="ko-kr" /><meta name="format-detection" content="telephone=no"/><link rel="shortcut icon" type="image/x-icon" href="/etc/clientlibs/koreanair/images/favicon.ico"><title>회원 가입 - 대한항공</title><link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/vendor.2794d4fd62371139d837a8fed5cdc224.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head_css1.9d9a8dc53d7a488af3a1cf69fa9ea695.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head_css2.cb6f13c53ffd216aac837f3e8eccfffc.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head_css3.53d40c70ba8f2cd6af5aa8cdd04b7d09.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head_css4.106da785bee42ff4868e180edca4c08a.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head_seatmap.913730c9c362eddab8777b219af6f061.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/head/langs/ko-kr.7ffd5bd27b8d63015cc64f4c342c226a.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/footer/korea.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css"/>
+<script type="text/javascript">
+        window.isPreviewMode = false;
+        window.isEditMode = false;
+
+        </script><script src="/etc/clientlibs/koreanair/js/vendor/tealeaf_v3_3.js"></script><script type="text/javascript" src="/etc/clientlibs/granite/jquery.d311399a202bbfe8f6b94a4546a2a025.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.3010ac293e9c3ee5e4d05561c6e817b9.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.b14676fa47cce8b31155c6be3da9e810.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.d7c42e4a257b8b9fe38d1c53dd20d01a.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.e910b769cd2e558661f961c46223b353.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/lodash/modern.7b2eea6898007731c2ec2232f96726c7.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/personalization/kernel.d2952f184e39d06a381cc062de57ed49.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/head.fef055c62cd8bdb536d6582a99d53571.js"></script>
+<link rel="stylesheet" href="/etc/clientlibs/koreanair/libs/registration.23710806358c5edcdf6f903bc97b9ccc.css" type="text/css"/>
+
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><script src="//assets.adobedtm.com/42b58b508694b44ac8b88785803d0ae3556c21a8/satelliteLib-26b1255b2c1d1cac040d84a8779060909b9de8f1.js"></script><script type="text/javascript">
+
+        window.koreanair = window.koreanair || {};
+        window.koreanair.HomePage = "/content/koreanair/korea/ko.html";
+        window.koreanair.UrlRegion = koreanair.HomePage.substr(0, koreanair.HomePage.length - 5).split('/')[3];
+        window.koreanair.Navigation = window.koreanair.Navigation || {};
+        window.koreanair.Navigation.Booking = {"revenue":{"oneway":{"domestic":"/korea/ko/booking/dow.html","international":"/korea/ko/booking/xiow.html"},"roundtrip":{"domestic":"/korea/ko/booking/drt.html","international":"/korea/ko/booking/xirt.html"},"multi":"/korea/ko/booking/mc.html","schedule":"/korea/ko/booking/xirt.html"},"award":{"oneway":{"domestic":"/korea/ko/booking/adow.html","international":"/korea/ko/booking/xaiow.html"},"roundtrip":{"domestic":"/korea/ko/booking/adrt.html","international":"/korea/ko/booking/xairt.html"},"multi":"/korea/ko/booking/xaimt.html"},"misc":{"payment":"/korea/ko/booking/on-hold-purchase.html","reservationSearch":"/korea/ko/booking/reservation-search.html","checkIn":"/korea/ko/booking/check-in.html","baggage":"/korea/ko/traveling/baggage-services.html","carriageConditions":"/korea/ko/footers/terms-of-carriage.html","usDOTPage":"/korea/ko/traveling/baggage-services/not-allowed-to-bring-restricted.html","paymentPCC":"/korea/ko/booking/pcc-information/_jcr_content/par/text.html"},"ruleservice":"/content/koreanair-admin/cross-region/all-languages/flex-pricer-config/_jcr_content/par.bookingrules.json/{bookingType}/from/{origin}/to/{destination}.json","currencyCCOptions":"/content/koreanair-admin/cross-region/all-languages/credit-card-by-currency/_jcr_content/par/list/{currency}.cardoptions.json/{language}.json","koreanIssuedCardList":"/content/koreanair-mobile-admin/cross-region/all-languages/korean-issued-credit-cards/_jcr_content/par/list.cardList.json/kr.json","fleetFinderPage":"/content/koreanair-admin/cross-region/ko/fleet-finder-config/_jcr_content/par/urlcodemapper.mapperByCode.json/{aircraftCode}.json","paymentGuidePage":"/korea/ko/ticket-information/payment-guide.html","cardBenefitPage":"/korea/ko/footers/payment-guide/creditcardinstallmentpayment.html","bankCards":"/content/koreanair-admin/cross-region/all-languages/bank-card-types/_jcr_content/par/list.bankcards.json/{language}.json","easypayCreditCardOptions":"/content/koreanair-admin/cross-region/all-languages/easy-pay-credit-card-options/_jcr_content/par/list.easypay.json/{language}.json","mcpcurrencies":"/content/koreanair-admin/cross-region/all-languages/mcp-currencies/_jcr_content/par/list.mcpcurrencies.json/{language}.json","countries":"/content/koreanair-admin/cross-region/en/country-configuration/_jcr_content/par/list.countries.json","airlineCodes":"/content/koreanair-admin/cross-region/all-languages/airline-partner-config/_jcr_content/par/airlines.list.json"};
+        window.koreanair.pageTitleText = '회원 가입';
+
+        window.koreanair.Airports = window.koreanair.Airports || {};
+        window.koreanair.Airports.airportListUrl = '/content/koreanair-admin/cross-region/all-languages/airport-config/_jcr_content/par.listairports.json/{bookingtype}/{direction}/{language}.json';
+        window.koreanair.Airports.airportDetailsUrl = '';
+        window.koreanair.Airports.airportMessagesPage = '/content/koreanair-admin/cross-region/ko/AirportMessageManagement/_jcr_content/par.message.json/{bookingType}/from/{origin}/to/{destination}.json';
+
+        window.koreanair.ContactKAL = window.koreanair.ContactKAL || {};
+        window.koreanair.ContactKAL = {"regions":"/content/koreanair-admin/cross-region/all-languages/contact-kal-admin/_jcr_content/par/list.regions.json/{language}.json","offices":"/content/koreanair-admin/cross-region/all-languages/contact-kal-admin/_jcr_content/par/list.offices.json/{region}/{language}.json","officePageLocation":"/korea/ko/customer-support/contact-us/{office}.html"};
+
+        window.koreanair.Alerts = window.koreanair.Alerts || {};
+        window.koreanair.Alerts.checkinAlertsUrl = '';
+
+        window.koreanair.Account = window.koreanair.Account || {};
+        window.koreanair.Account.accountRecovery = '/korea/ko/profile/account-recovery.html';
+        window.koreanair.Account.accountRegistration = '/korea/ko/profile/registration.html';
+        window.koreanair.Account.profilePage = '/korea/ko/profile/profile.html';
+        window.koreanair.Account.familyplaninfo = '/korea/ko/skypass/benefits/family-plan.html';
+
+        window.koreanair.Domestic = window.koreanair.Domestic || {};
+        window.koreanair.Domestic.classRules = '';
+
+        window.koreanair.DateFormat = window.koreanair.DateFormat || {};
+        //		window.koreanair.DateFormat.time = 'HH:mm';
+        window.koreanair.DateFormat.time = ('HH:mm').length > 0 ? 'HH:mm' : 'HH:mm';
+        window.koreanair.DateFormat.date = 'YYYY년 MM월 DD일';
+        window.koreanair.DateFormat.daySuffix = '일';
+
+        </script>
+
+</head>
+<body><div class="parbase clientcontext"><script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
+        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default", "/content/koreanair/korea/ko/profile/registration");
+
+        
+    });
+</script>
+</div>
+<script>
+		window.tr = window.tr || {};
+	</script><div id="top-sec"><div class="header"><div class="utilnav utilitynav" role="banner"><script type="text/javascript">
+    window.koreanair.UtilityNav.loginModalRef = '/content/koreanair-admin/korea-region-config/ko/login-config/jcr:content/par/login_0.html'
+    
+
+    window.koreanair.siteSelectLangList || {};
+    window.koreanair.siteSelectLangList = [
+        
+                { "country" : "kr",
+                    "region" : "korea",
+                    "lang" : [
+                    
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/korea/ko.html' }
+                    , 
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    
+                ] } , 
+                { "country" : "mx",
+                    "region" : "americas",
+                    "lang" : [
+                    
+                    { "langCode" : 'es', "langText" : 'Español', "langUrl" : '/global/es.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    
+                ] } , 
+                { "country" : "us",
+                    "region" : "americas",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'es', "langText" : 'Español', "langUrl" : '/global/es.html' }
+                    
+                ] } , 
+                { "country" : "br",
+                    "region" : "americas",
+                    "lang" : [
+                    
+                    { "langCode" : 'pt-br', "langText" : 'Português', "langUrl" : '/global/pt_br.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    
+                ] } , 
+                { "country" : "ca",
+                    "region" : "americas",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'fr', "langText" : 'Français', "langUrl" : '/global/fr.html' }
+                    
+                ] } , 
+                { "country" : "np",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "nz",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "my",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "mv",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "mn",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "mm",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "bd",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "vn",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'vi', "langText" : 'Tiếng Việt', "langUrl" : '/global/vi.html' }
+                    
+                ] } , 
+                { "country" : "bn",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "lk",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "sg",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "uz",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'ru', "langText" : 'Pусский', "langUrl" : '/global/ru.html' }
+                    
+                ] } , 
+                { "country" : "in",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "id",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'id', "langText" : 'Bahasa Indonesia', "langUrl" : '/global/id.html' }
+                    
+                ] } , 
+                { "country" : "jp",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'ja', "langText" : '日本語', "langUrl" : '/global/ja.html' }
+                    
+                ] } , 
+                { "country" : "cn",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'zh-cn', "langText" : '简体中文', "langUrl" : '/global/zh_cn.html' }
+                    , 
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "kh",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "th",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'th', "langText" : 'ภาษาไทย', "langUrl" : '/global/th.html' }
+                    
+                ] } , 
+                { "country" : "pk",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "pw",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "fj",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "ph",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "au",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "hk",
+                    "region" : "asiaPacific",
+                    "lang" : [
+                    
+                    { "langCode" : 'zh-hk', "langText" : '繁體中文', "langUrl" : '/global/zh_hk.html' }
+                    , 
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "sa",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "sy",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "ae",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "om",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "jo",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "il",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "qa",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "kw",
+                    "region" : "africaMiddleEast",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "gr",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "nl",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "no",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "de",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'de', "langText" : 'Deutsch', "langUrl" : '/global/de.html' }
+                    
+                ] } , 
+                { "country" : "ru",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'ru', "langText" : 'Pусский', "langUrl" : '/global/ru.html' }
+                    
+                ] } , 
+                { "country" : "ch",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'de', "langText" : 'Deutsch', "langUrl" : '/global/de.html' }
+                    , 
+                    { "langCode" : 'fr', "langText" : 'Français', "langUrl" : '/global/fr.html' }
+                    
+                ] } , 
+                { "country" : "es",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'es', "langText" : 'Español', "langUrl" : '/global/es.html' }
+                    
+                ] } , 
+                { "country" : "gb",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "at",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'de', "langText" : 'Deutsch', "langUrl" : '/global/de.html' }
+                    
+                ] } , 
+                { "country" : "it",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "cz",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "tr",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+                { "country" : "fr",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    , 
+                    { "langCode" : 'fr', "langText" : 'Français', "langUrl" : '/global/fr.html' }
+                    
+                ] } , 
+                { "country" : "hr",
+                    "region" : "europe",
+                    "lang" : [
+                    
+                    { "langCode" : 'en', "langText" : 'English', "langUrl" : '/global/en.html' }
+                    , 
+                    { "langCode" : 'ko', "langText" : '한국어', "langUrl" : '/global/ko.html' }
+                    
+                ] } , 
+    ];
+
+    window.koreanair.Account = window.koreanair.Account || {};
+    window.koreanair.Account.accountRecovery = '/korea/ko/profile/account-recovery.html';
+    window.koreanair.Account.accountRegistration = '/korea/ko/profile/registration.html';
+    window.koreanair.Account.profilePage = '/korea/ko/profile/profile.html';
+    window.koreanair.Account.familyplaninfo = '/korea/ko/skypass/benefits/family-plan.html';
+
+    window.koreanair.chat = window.koreanair.chat || {};
+
+    window.koreanair.backEventPageInterceptor = function() {
+        koreanair.goto('/');
+    };
+
+    window.koreanair.BookingBar.Images = window.koreanair.BookingBar.Images || {};
+    window.koreanair.BookingBar.Images.CabinClass = {"firstclass":"/etc/clientlibs/koreanair/images/components/bookingbar/seat-first-class.png","prestige":"/etc/clientlibs/koreanair/images/components/bookingbar/seat-prestige-class.png","economy":"/etc/clientlibs/koreanair/images/components/bookingbar/seat-economy-class.png"};
+    window.koreanair.BookingBar.InformationLinks = {"studentDiscountPage":"/korea/ko/booking/student-documents/_jcr_content/par.html"};
+    window.koreanair.BookingBar.Images.PageImages = {"logo":"/etc/clientlibs/koreanair/images/components/bookingbar/top-nav-koreanair.png"};
+    window.koreanair.BookingBar.HomePage = "/korea/ko.html";
+    window.koreanair.BookingBar.HomeSkyPage = "http://www.skyteam.com";
+
+    $(document).ready(function() {
+        $('#navLogo .koreanair-logo').attr('src', window.koreanair.BookingBar.Images.PageImages.logo);
+        $('#navLogo .koreanair-home').attr('href', window.koreanair.BookingBar.HomePage);
+    });
+</script><div class="skipNavSec" id="skipNavSec"><a class="skip" href="#firstH1" id="skipToNavigation"><span>본문 바로 가기</span></a></div><div id="cookie-info-alert"></div><div class="alertbanner alert"><section id="alert-marquee" class="keForm" style="display: none;"><h2 class="offscreen" id="alert-title-1">긴급 메시지</h2><div role="navigation"  aria-labelledby="alert-title-1" ><ul class="playapplication"><li><button id="alert-control" class="pausenstop"><span class="offscreen">일시정지</span></button></li><li><button class="prev disabled" disabled><span class="offscreen">이전</span></button></li><li><button class="next"><span class="offscreen">다음</span></button></li></ul></div><ul class="alert-container" ></ul><div id="alert-bar-info"><input type="checkbox" id="alert-bar-checkbox" /><span class="checkbox"></span><label for="alert-bar-checkbox">24시간 동안 알림창 보지 않기</label></div><button id="alertbanner-close" class="close-layer close-alert">닫기</button></section><script type="text/javascript">
+    window.koreanair.AlertData = window.koreanair.AlertData || {};
+    window.koreanair.AlertData.Url = '/content/koreanair-admin/cross-region/ko/alert-adminsitration/_jcr_content/par/list.alerts.json';
+    window.koreanair.AlertData.Delay = '4000';
+</script></div>
+<div id="siteUtilities"  role="navigation" aria-label="유틸"><div class="utilwrap"><div class="quick-site-select"><button id="regionSelectButton"  class="link_button regionleft" aria-controls="site-select"  aria-expanded="false" >지역/언어</button><div class="current-langs-wrap" id="site-select"  aria-hidden="true" style="display:none;"><div class="country-select"><label for="utilnav-country-selector">국가/지역 선택</label><div class="styled-select "><select id="utilnav-country-selector" class="ke-selectbox"><option>선택</option></select></div></div><div class="lang-select"><label for="utilnav-language-selector">언어 선택</label><div class="styled-select small"><select id="utilnav-language-selector" class="ke-selectbox"><option>선택</option></select></div></div><button id="changeLocale" class="button-main-blue">선택</button><button class="siteselect-btn-close">닫기</button></div><div class="set-language"><span class="posR"><span id="currentCountry">대한민국</span></span><ul class="quick-lang-select"></ul></div></div><div class="search searchnav fRIght"><ul class="utilMenu "></ul></div><div class="search-box"><form id="searchForm" action="/korea/ko/search.html" method="get" aria-live="off"><div class="input_box"><input type="hidden" name="_charset_" value="UTF-8"/><span class="placeholder" data-placeholder-id="h-search-field" id="placeholder-gSearch">검색</span><input type="text" maxlength="30"  name="q" id="h-search-field" class="cq-auto-clear hiddenx" title="검색"/></div><button type="submit" class="btn">검색</button></form></div></div></div><div id="navLogo" class=" top-position"><span class="topNavItem"><img src="/etc/clientlibs/koreanair/images/components/bookingbar/top-nav-logo.png" alt="Korean Air. SkyTeam" class="koreanair-logo"/><a href="#" class="koreanair-home koreanair-area">&nbsp;Korean Air</a><a href="http://www.skyteam.com" class="skyteam-area" target="_blank">&nbsp;스카이팀<span class="offscreen">&nbsp;(새 창에서 열기)</span></a></span></div>
+</div>
+<div id="topNav" class="gnb"><section class="gnbSec" ><nav class="menuSec" role="navigation"  aria-label="메인"><ul class="depth-1 "><li class="topMenu1 gnbTopMenu"><div class="topMenuItemWrapper"><button data-href="#gnbmenu1" class="devTopMenu" data-menu-index="1" aria-expanded="false" aria-controls="gnbmenu1">항공권 예매</button><div id="gnbmenu1" style="display: none;"  class="mLayer devSubMenuPanel" aria-hidden="true" ><div class="grid-2depth" style="width:980px;"><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/booking/booking-gate.html" target="_self">항공권 예매</a></h2><ul class="depth-3"><li><a href="/korea/ko/booking/booking-gate.html" target="_self">일반 예매</a></li><li><a href="/korea/ko/booking/reservation-search.html" target="_self">조회/변경/환불</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/booking/booking-gate.html?awa#domestic-award" target="_self">보너스 항공권 예매</a></h2><ul class="depth-3"><li><a href="/korea/ko/booking/booking-gate.html?awa#domestic-award" target="_self">보너스 예매</a></li><li><a href="/korea/ko/booking/reservation-search.html" target="_self">조회/변경/환불</a></li><li><a href="/korea/ko/skypass/view-bonus-seat.html" target="_self">보너스 좌석 상황 보기</a></li><li><a href="/korea/ko/skypass/bonus-recommand-trip.html" target="_self">보너스 추천 여행지</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/booking/giftTicketGate.html" target="_self">항공권 선물하기</a></h2><ul class="depth-3"><li><a href="/korea/ko/booking/booking-gate.html?dom#giftTicket/DOM" target="_self">국내선 선물하기</a></li><li><a href="/korea/ko/booking/booking-gate.html?intl#giftTicket/INT" target="_self">국제선 선물하기</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/booking/schedule-flight.html?flight#flight" target="_self">항공편 조회</a></h2><ul class="depth-3"><li><a href="/korea/ko/booking/schedule-flight.html?flight#flight" target="_self">출도착 조회</a></li><li><a href="/korea/ko/booking/schedule-flight.html?scdl#schedule" target="_self">스케줄 조회</a></li><li><a href="/korea/ko/routemap.html" target="_self">운항 노선도</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/ticket-information.html" target="_self">이용 안내</a></h2><ul class="depth-3"><li><a href="/korea/ko/ticket-information/ticket-services.html" target="_self">항공권 변경 및 환불 안내</a></li><li><a href="/korea/ko/ticket-information/korean-domestic-tickets.html" target="_self">국내선 운임 안내</a></li><li><a href="/korea/ko/ticket-information/skyteam-around-the-world.html" target="_self">스카이팀 세계일주 운임</a></li><li><a href="/korea/ko/ticket-information/codeshare-partners.html" target="_self">공동운항 항공사</a></li><li><a href="/korea/ko/ticket-information/payment-guide.html" target="_self">구매 가이드</a></li></ul></div></div></div><button class="gnbMenuClose close-layer">닫기</button></div></div></li>
+<li class="topMenu2 gnbTopMenu"><div class="topMenuItemWrapper"><button data-href="#gnbmenu2" class="devTopMenu" data-menu-index="2" aria-expanded="false" aria-controls="gnbmenu2">스카이패스</button><div id="gnbmenu2" style="display: none;"  class="mLayer devSubMenuPanel" aria-hidden="true" ><div class="grid-2depth" style="width:828px;"><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/skypass/benefits.html" target="_self">회원 혜택</a></h2><ul class="depth-3"><li><a href="/korea/ko/skypass/benefits/skypass-elite.html" target="_self">스카이패스 회원 혜택</a></li><li><a href="/korea/ko/skypass/benefits/skyteam-elite-benefits.html" target="_self">스카이팀 공동 혜택</a></li><li><a href="/korea/ko/skypass/benefits/family-plan.html" target="_self">가족 마일리지 제도</a></li><li><a href="/korea/ko/skypass/benefits/skypass-partner-discount.html" target="_self">제휴사 할인 혜택</a></li><li><a href="/korea/ko/skypass/benefits/cmbs.html" target="_self">상용 기업우대 제도</a></li></ul></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/skypass/earn.html" target="_self">마일리지 적립</a></h2><ul class="depth-3"><li><a href="/korea/ko/skypass/earn/korean-air.html" target="_self">대한항공</a></li><li><a href="/korea/ko/skypass/earn/credit-cards.html" target="_self">신용카드</a></li><li><a href="/korea/ko/skypass/earn/partner-ailrlines.html" target="_self">제휴 항공사</a></li><li><a href="/korea/ko/skypass/earn/car-rentals.html" target="_self">렌터카</a></li><li><a href="/korea/ko/skypass/earn/hotels.html" target="_self">호텔</a></li><li><a href="/korea/ko/skypass/earn/other-partners.html" target="_self">기타 제휴사</a></li><li><a href="https://kr.koreanair.com/korea/ko/profile/profile.html#mileage-inquiry" target="_self">마일리지 사후 적립 신청</a></li></ul></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/skypass/flight-award.html" target="_self">항공 보너스 사용</a></h2><ul class="depth-3"><li><a href="/korea/ko/skypass/flight-award/award-ticket.html" target="_self">보너스 항공권</a></li><li><a href="/korea/ko/skypass/flight-award/upgrade.html" target="_self">좌석승급 보너스</a></li><li><a href="/korea/ko/skypass/flight-award/round-the-world-bonus.html" target="_self">세계일주 보너스</a></li><li><a href="/korea/ko/skypass/flight-award/kal-loungebonus.html" target="_self">KAL 라운지 보너스</a></li><li><a href="/korea/ko/skypass/flight-award/excess-baggage-award.html" target="_self">초과 수하물 보너스</a></li></ul></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/skypass/non-flight-award.html" target="_self">비항공 보너스 사용</a></h2><ul class="depth-3"><li><a href="/korea/ko/skypass/non-flight-award/logo-products.html" target="_self">로고 상품</a></li><li><a href="/korea/ko/skypass/non-flight-award/coatroom-award.html" target="_self">코트룸 보너스</a></li><li><a href="/korea/ko/skypass/non-flight-award/miles-to-hotels.html" target="_self">마일로 호텔로</a></li><li><a href="/korea/ko/skypass/non-flight-award/miles-to-rent-a-car.html" target="_self">마일로 렌터카</a></li><li><a href="/korea/ko/skypass/non-flight-award/kal-limousine-award.html" target="_self">마일로 리무진</a></li><li><a href="/korea/ko/skypass/non-flight-award/miles-to-folkvillage.html" target="_self">마일로 민속촌</a></li><li><a href="/korea/ko/skypass/non-flight-award/mileage-tour.html" target="_self">마일리지 투어</a></li></ul></div></div></div><button class="gnbMenuClose close-layer">닫기</button></div></div></li>
+<li class="topMenu3 gnbTopMenu"><div class="topMenuItemWrapper"><button data-href="#gnbmenu3" class="devTopMenu" data-menu-index="3" aria-expanded="false" aria-controls="gnbmenu3">서비스 안내</button><div id="gnbmenu3" style="display: none;"  class="mLayer devSubMenuPanel" aria-hidden="true" ><div class="grid-2depth" style="width:980px;"><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/traveling/airport-check-in.html" target="_self">탑승수속</a></h2><ul class="depth-3"><li><a href="/korea/ko/traveling/airport-check-in/airport-check-in.html" target="_self">탑승수속</a></li><li><a href="/korea/ko/traveling/airport-check-in/connecting-flight-info.html" target="_self">연결 탑승수속</a></li><li><a href="/korea/ko/traveling/airport-check-in/advance-seat-selection.html" target="_self">사전 좌석배정</a></li><li><a href="/korea/ko/traveling/airport-check-in/kiosk.html" target="_self">키오스크</a></li><li><a href="/korea/ko/traveling/airport-check-in/web-check-in.html" target="_self">웹체크인</a></li><li><a href="/korea/ko/traveling/airport-check-in/visas-passports-immigration-regulation.html" target="_self">출입국 규정 조회</a></li></ul><h2><a href="/korea/ko/traveling/aircraft-info.html" target="_self">항공기 안내</a></h2></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/traveling/baggage-services.html" target="_self">수하물</a></h2><ul class="depth-3"><li><a href="/korea/ko/traveling/baggage-services/allowed-to-bring-unrestricted.html" target="_self">운송 가능 수하물</a></li><li><a href="/korea/ko/traveling/baggage-services/not-allowed-to-bring-restricted.html" target="_self">운송 제한 품목</a></li><li><a href="/korea/ko/traveling/baggage-services/transfer-procedures.html" target="_self">수하물 연결 수속</a></li><li><a href="/korea/ko/traveling/baggage-services/loss-delayed-damaged.html" target="_self">분실/지연/파손</a></li><li><a href="/korea/ko/traveling/baggage-services/lost-and-found.html" target="_self">기내 유실물 찾기</a></li><li><a href="/korea/ko/traveling/baggage-services/tips.html" target="_self">수하물 준비방법</a></li></ul><h2><a href="/korea/ko/traveling/in-flight-shopping.html" target="_self">기내면세품</a></h2></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/traveling/services.html" target="_self">도움이 필요한 승객</a></h2><ul class="depth-3"><li><a href="/korea/ko/traveling/services/family-service.html" target="_self">한가족 서비스</a></li><li><a href="/korea/ko/traveling/services/um-service.html" target="_self">비동반 소아 서비스</a></li><li><a href="/korea/ko/traveling/services/travellers-with-disabilities.html" target="_self">몸이 불편하신 고객</a></li><li><a href="/korea/ko/traveling/services/pregnancy.html" target="_self">임신부 고객</a></li><li><a href="/korea/ko/traveling/services/infants.html" target="_self">유아동반 고객</a></li><li><a href="/korea/ko/traveling/services/pets.html" target="_self">반려동물과 여행하기</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/traveling/airport-transit-information.html" target="_self">공항 및 환승 정보</a></h2><ul class="depth-3"><li><a href="/korea/ko/traveling/airport-transit-information/incheon-airport.html" target="_self">인천공항</a></li><li><a href="/korea/ko/traveling/airport-transit-information/city-air-terminal-in-seoul.html" target="_self">도심공항</a></li><li><a href="/korea/ko/traveling/airport-transit-information/hotel-check-in.html" target="_self">직영 호텔 내 탑승수속</a></li><li><a href="/korea/ko/traveling/airport-transit-information/worldwide-airports.html" target="_self">취항지 공항정보</a></li><li><a href="/korea/ko/traveling/airport-transit-information/kal-lounges.html" target="_self">KAL 라운지</a></li><li><a href="/korea/ko/traveling/airport-transit-information/kal-limo.html" target="_self">KAL 리무진</a></li><li><a href="/korea/ko/traveling/airport-transit-information/rail-fly.html" target="_self">Rail & Fly</a></li><li><a href="/korea/ko/traveling/airport-transit-information/skypriority.html" target="_self">SkyPriority</a></li></ul></div></div><div class="col-1-5"><div class="depth-2"><h2><a href="/korea/ko/traveling/classes-of-service.html" target="_self">기내 및 클래스별 서비스</a></h2><ul class="depth-3"><li><a href="/korea/ko/traveling/classes-of-service/first-class.html" target="_self">일등석</a></li><li><a href="/korea/ko/traveling/classes-of-service/prestige-class.html" target="_self">프레스티지석</a></li><li><a href="/korea/ko/traveling/classes-of-service/economy-class.html" target="_self">일반석</a></li><li><a href="/korea/ko/traveling/classes-of-service/in-flight-service-plan.html" target="_self">기내 서비스 순서</a></li><li><a href="/korea/ko/traveling/classes-of-service/entertainment.html" target="_self">기내 오락</a></li><li><a href="/korea/ko/traveling/classes-of-service/in-flight-special-meals.html" target="_self">기내식 및 특별기내식</a></li><li><a href="/korea/ko/traveling/classes-of-service/healthy-travel-tips.html" target="_self">기내 여행 가이드</a></li></ul></div></div></div><button class="gnbMenuClose close-layer">닫기</button></div></div></li>
+<li class="topMenu4 gnbTopMenu"><div class="topMenuItemWrapper"><button data-href="#gnbmenu4" class="devTopMenu" data-menu-index="4" aria-expanded="false" aria-controls="gnbmenu4">프로모션/여행상품</button><div id="gnbmenu4" style="display: none;"  class="mLayer devSubMenuPanel" aria-hidden="true" ><div class="grid-2depth" style="width:828px;"><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/promotions.html" target="_self">이벤트</a></h2><h2><a href="/korea/ko/detailDiscountTicket.html" target="_self">특가 항공권</a></h2></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/offers-promotion/excellent-boarding-pass-program.html" target="_self">엑설런트 보딩패스</a></h2><h2><a href="/korea/ko/offers-promotion/excellent-transit-program.html" target="_self">엑설런트 트랜짓 프로그램</a></h2></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/business-jet-services.html" target="_self">전용기 서비스</a></h2><ul class="depth-3"><li><a href="/korea/ko/business-jet-services/overview.html" target="_self">서비스 개요</a></li><li><a href="/korea/ko/business-jet-services/Fleet.html" target="_self">상품 안내</a></li></ul></div></div><div class="col-1-4"><div class="depth-2"><h2><a href="/korea/ko/travel-products.html" target="_self">여행상품</a></h2><ul class="depth-3"><li><a href="/korea/ko/travel-products/kaltour.html" target="_self">해외여행상품</a></li><li><a href="/korea/ko/travel-products/hotel.html" target="_self">호텔</a></li><li><a href="/korea/ko/travel-products/car-rentals.html" target="_self">렌터카</a></li><li><a href="/korea/ko/travel-products/insurance.html" target="_self">해외여행자 보험</a></li><li><a href="/korea/ko/travel-products/flightacademy.html" target="_self">플라이트 아카데미</a></li><li><a href="/korea/ko/travel-products/travelkoreanair.html" target="_self">여행정보사이트</a></li></ul></div></div></div><button class="gnbMenuClose close-layer">닫기</button></div></div></li>
+</ul></nav></section></div>
+<div class="booking-start open-jaw"><div class="bookingProgressBar newMenu"></div></div></div><div class="open-menu" style="display:none;" aria-hidden="true"><button disabled="disabled"><span class="offscreen">페이지 최상단으로 이동</span></button></div></div><script type="text/javascript" src="/etc/clientlibs/koreanair/libs/vendor.23de1b5e39060d30aa8a08b690d2eed3.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/vendor/langs/ko-kr.260deb49008fa909ac04beab10332689.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/contentpage/contentCommonHead.86b3a703eb18102d72e43dd9d7f428d5.js"></script>
+<script type="text/javascript">
+  window.koreanair.registrationLinks = window.koreanair.registrationLinks || {};
+  koreanair.registrationLinks.content = koreanair.registrationLinks.content || {};
+  koreanair.registrationLinks.content = {"termsofuse":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/terms-of-use.html#par_text\" class=\" legal-content light center cta\">회원 약관<\/a>에 동의 합니다.<\/p>\n","privacypolicy":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/privacy-policy.html#par_text\" class=\" legal-content light center cta\">개인정보 수집ㆍ이용 및 국외이전<\/a>에 동의합니다.<\/p>\n","thirdpartyvendor":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/3rd-party-vendor-policy.html#par_text\" class=\" legal-content light center cta\">개인정보 제3자 제공<\/a>에 동의합니다. (선택사항)<\/p>\n","skytermsofuse":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/skyshop-terms-of-use.html#par_text\" class=\" legal-content light center cta\">싸이버스카이숍 회원약관<\/a>에 동의합니다.<\/p>\n","skyprivacypolicy":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/skyshop-privacy-policy.html#par_text\" class=\" legal-content light center cta\">싸이버스카이숍 개인정보보호 수집 및 이용<\/a>에 동의합니다.<\/p>\n","skythirdpartyvendor":"<p><a href=\"/content/koreanair/korea/ko/profile/registration/skyshop-3rd-party-vendor-policy.html#par_text\" class=\" legal-content light center cta\">Skys싸이버스카이숍 개인정보 제3자 제공 및 위탁<\/a>에 동의합니다.<\/p>\n","membershipconditions":""};
+
+
+	window.koreanair.iPinDesktop = '{"serviceCode":"029007","redirectTargetUrl":"testing.html"}';
+	window.koreanair.iPinMobile = '{"serviceCode":"011009","redirectTargetUrl":"testing.html"}';
+		
+
+</script><div class="imm" data-wa-role="contentBody" role="main"><div class="background-image"><div class="parbase image">
+
+    </div>
+</div><div class="registration-page"><div class='registrationWrapper page'><div class="registration">
+
+
+
+
+</div>
+</div></div></div>
+
+
+
+<div class="footer"><footer id="footer" role="contentinfo"><div class="footer-wrap"><div class="inner-row"><div class="par col-2"><div class="list row-1" id="footerContent"></div><div class="address-area"><div class="addr"><p x-ms-format-detection="none">(주) 대한항공 | 대표이사 : 우기홍 외 2명 | 주소 : 서울특별시 강서구 하늘길 260 | 대표전화 : 1588-2001 / 02-2656-2001<br>
+사업자 등록번호 : 110-81-14794 | 통신판매업신고 : 강서 제 16-3010 | 개인정보보호책임자 : 여객사업본부장 이진호 상무&nbsp;<br>
+©<b>&nbsp;2018 KOREAN AIR</b></p>
+</div><div class="sns-area"><ul class="social-media"><li><a href="https://www.facebook.com/KoreanAir" target="_blank" class="fb"><span class="offscreen">대한항공 페이스북 &nbsp;(새 창에서 열기)&nbsp;</span></a></li><li><a href="https://twitter.com/KoreanAir" target="_blank" class="tw"><span class="offscreen">대한항공 트위터 &nbsp;(새 창에서 열기)&nbsp;</span></a></li><li><a href="https://www.instagram.com/koreanair/" target="_blank" class="inst"><span class="offscreen">대한항공 인스타그램 &nbsp;(새 창에서 열기)&nbsp;</span></a></li><li><a href="https://plus.google.com/+KoreanAir" target="_blank" class="gp"><span class="offscreen">대한항공 구글 플러스 &nbsp;(새 창에서 열기)&nbsp;</span></a></li></ul></div></div></div><div class="par col-1"><a href="http://www.vkc.or.kr/" target="_blank" class="visit-korea" style="background:url(/etc/clientlibs/koreanair/images/components/footer/logo-visitkorea-ko.png) no-repeat right 0;width:143px;"><span class="offscreen">한국 방문의 해 사이트 </span><span class="offscreen">&nbsp;(새 창에서 열기)&nbsp;</span></a></div></div><div class="mobile_mode_container"></div></div><div class="backgfooter"></div></footer><script type="text/javascript">
+if ('/content/koreanair-admin/korea-region-config/ko/footer/_jcr_content/par.html'.length != 0) {
+    window.koreanair.ExecQueue.add(function () {
+        var url = '/content/koreanair-admin/korea-region-config/ko/footer/_jcr_content/par.html';
+
+        if (isEditMode && typeof CQ != 'undefined' && typeof CQ.shared != 'undefined') {
+            url = CQ.shared.HTTP.setParameter(url, 'wcmmode', koreanair.WCM_MODES.DISABLED);
+        }
+
+        $.get(url, function(data) {
+            if(/\s*\<\!DOCTYPE/.test(data)) { // This is an error page
+                try { console.error('Could not load page', this.url); } catch(e) {}
+                return;
+            }
+            
+				$footer = $('#footerContent').html(data);
+				$footer.find('.linklist').each(function(idx) {
+					if(idx != 0) {
+						$(this).parent().parent().css('border-left','1px solid white');
+					}
+				});
+				//$footer.find("#chatUtilities a").text(Granite.I18n.get("footer-chat-label"));
+				//$footer.find("#chatUtilities a").attr("title", Granite.I18n.get("Open in new window"));
+
+				$('.footer-list li').on('click', function(e){
+					var url = $(e.currentTarget).find('a').attr('href');
+					if(url.indexOf('voice-of-customer.html') > 0 || url.indexOf('customer-support/contact-us') > 0){
+						e.preventDefault();
+						koreanair.viewHelpers.checkSystemStatus("hmp-system-operation-flag", false, false, "hmp-system-operation-info").done(_.bind(function (rval) {
+							location.href = url;
+						}, this));
+					}
+				});
+
+				var showPrivacyPolicy = function(lang, country){
+					var privacyIconLangMap = {
+						'ko': ['kr'],
+						'en': ['kr']
+					};
+
+					if (lang == null || country == null) {
+						$('#footerPrivacyPolicy').remove();
+
+						return;
+					};
+
+					var thisLangPrivacyCountries = privacyIconLangMap[lang];
+
+					if (!_.contains(thisLangPrivacyCountries, country)) $('#footerPrivacyPolicy').remove();
+				};
+
+				var showChat = function(lang, country){
+					var chatLangMap = {
+						//lang: [ countries ]
+						'ko': ['kr', 'us', 'ca', 'cn', 'jp'],
+						'en': ['us', 'ca'],
+						'zh-cn': ['cn'],
+						'ja': ['jp']
+					};
+
+					$('#chatUtilities .chat').removeClass('on');//PLUAT-1187
+
+					var countriesWithChat = _.keys(chatLangMap);
+					if (!_.contains(countriesWithChat, lang)) return;
+
+					if (!_.contains(countriesWithChat, lang)) {
+						//$('#chatUtilities').parent().parent().parent().parent().parent().css('display', 'none');
+						var liLen = $('#chatUtilities').closest('.section').find('li').length;
+						if(liLen <= 1) $('#chatUtilities').closest('.section').parent().parent().remove();
+						else $('#chatUtilities').closest('li').remove();
+
+						return;
+					}
+
+					//your language has chat, does your country?
+					var thisLangChatCountries = chatLangMap[lang];
+
+					var isTouchDevice = /Android|webOS|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+					if (_.contains(thisLangChatCountries, country) && !isTouchDevice) {
+						$('#chatUtilities .chat').addClass('on');//PLUAT-1187
+						updateChatURL(false, lang, country);
+					} else {//모바일에서는 보이지 않도록 처리
+
+						$('#chatUtilities').parent().remove();
+
+					}
+				};
+
+				var updateChatURL = function (userID, lang, country) {
+					var userid = userID ||
+							koreanair.skypass.authenticated() ? koreanair.skypass.getUserID() : false,
+							capitalizeCountry = country.toUpperCase(),
+							chatURL = $('.chat a').data('href') + '?lang=' + lang + '&locale=' + capitalizeCountry;
+
+					if (userid) {
+						chatURL = chatURL + '&uid=' + userID;
+					}
+
+					$('.chat a').attr('href', chatURL);
+				};
+
+				var showTollFree = function(lang, country){
+					var tollFreeLangMap = {
+						'en': ['us']
+					};
+
+					var thisLangTollFreeCountries = tollFreeLangMap[lang];
+
+					var tollFreeNode = $('.footer li a');
+					var etcNode = '';
+					if (_.contains(thisLangTollFreeCountries, country)) {
+					}else{
+						_.forEach(tollFreeNode, function(val, index){
+
+							if($(val).attr('href').indexOf('passengers-with-assistance') > 0){
+								$(val).closest('li').remove();
+
+							}
+						});
+					}
+
+				};
+				var showGallery = function (lang, country){
+					if (country == 'us') {
+						var tollFreeNode = $('.footer li a');
+						_.forEach(tollFreeNode, function(val, index){
+							if($(val).attr('href').indexOf('ad-gallery') > 0){
+								$(val).closest('li').remove();
+							}
+						});
+					}
+				};
+				var showCarriage = function (lang, country){
+					if (lang == 'de') {
+						if(country == 'at' || country == 'ch'){
+							//terms-of-carriage.html
+							var aRinkList = $('.footer-list li a');
+							_.forEach(aRinkList, function(val, index){
+								var carriageHref = $(val).attr('href');
+								if(carriageHref.indexOf('terms-of-carriage') > 0){
+									carriageHref = carriageHref.replace("terms-of-carriage", 'terms-of-carriage-eng');
+									$(val).attr('href', carriageHref);
+								}
+							});
+						}
+					}
+				};
+				var convertLiToDiv = function(){
+					var footerNodes = $('#footerContent ul');
+					var convertedNode = '';
+
+					_.forEach(footerNodes, function(val, index){
+						if($(val).find('li').length == 1){
+							if($(val).find('div').length != 0){ // chatting
+								convertedNode = $(val).find('div:first');
+							}else{
+								convertedNode = $('<div class="list-item" ></div>').append($(val).find('a'));
+							}
+
+							$(val).replaceWith(convertedNode);
+							return;
+						}
+					});
+
+				};
+
+				var removeEmptySection = function(){
+					var footerNodes = $('#footerContent .footer-list');
+
+					_.forEach(footerNodes, function(val, index){
+						if($(val).find('li').length == 0 && $(val).find('div').length == 0 ){
+							$(val).parent().parent().remove();
+							return;
+						}
+					});
+
+				};
+
+				var convertBToStrongTag = function(){
+					var footerNodes = $('.footer b');
+					var convertedNode = '';
+
+					_.forEach(footerNodes, function(val, index){
+						convertedNode = '<strong>'+$(val).text()+'</strong>';
+						$(val).replaceWith(convertedNode);
+					});
+
+				};
+
+				var setHotels = function(country){
+					var hotels = $('#hk_tw_hotels');
+					if(hotels){
+						if(country == 'hk'){
+							$(hotels).attr('href','http://prf.hn/click/camref:1011l5GR/destination:http://zh.hotels.com/jiu-dian-you-hui/koreanair-hongkong');
+						}else if(country == 'tw'){
+							$(hotels).attr('href','http://prf.hn/click/camref:1100l5ab/destination:http://tw.hotels.com/fan-dian-you-hui/koreanair-taiwan');
+						}
+					}
+				};
+
+				var userInfoCall = koreanair.retrieveUserInfo || $.Deferred().resolve({ isAuthenticated:true, language:koreanair.Lang, country:koreanair.Country }).promise();
+				userInfoCall.done(function(userInfo) {
+					var lang = koreanair.Lang;
+					var country = koreanair.Country;
+
+					showPrivacyPolicy(lang, country);
+					showChat(lang, country);
+					showTollFree(lang, country);
+					showGallery(lang, country);
+					showCarriage(lang, country);
+					convertLiToDiv();
+					removeEmptySection();
+					convertBToStrongTag();
+					setHotels(country);
+				});
+			}, 'html');
+		});
+	}
+</script></div>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/contentpage/contentCommonFooter.2c4cb48a9a3185a600544e062a23a737.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/footer/korea.fad90ebe64ea8e6d94ad1be0691628e1.js"></script>
+
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/registration.3caf9d5271e77639308af8b96b5c3cec.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/koreanair/libs/registration/korea.4085fbd87151ff1499a63776d7b2d737.js"></script>
+<div class="servicecomponents cloudservices">
+</div>
+<script>
+		if(typeof $ !== 'undefined' && typeof Backbone !== 'undefined') {
+			$(document).ready(function(){
+				Backbone.history.start({ pushState: false });
+				koreanair.startedHistory = true;
+			});
+		}
+	</script><script type="text/javascript"> 
+		var userInfoCall = koreanair.retrieveUserInfo || $.Deferred().resolve({ isAuthenticated:true, language:koreanair.Lang, country:koreanair.Country }).promise();
+
+		userInfoCall.done(function(userInfo) {    	
+			if (window._satellite && _satellite.pageBottom){
+					dtmDataLayer.country_korenair = koreanair.Country;
+					dtmDataLayer.lang_korenair = koreanair.Lang			
+					_satellite.pageBottom();
+			}
+		}); 	
+	</script><div id="loadingFullWrap" aria-live="assertive"></div><div id="loadingFullWrapEnd" aria-live="assertive"></div></body>
+</html>
