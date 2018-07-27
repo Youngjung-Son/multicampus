@@ -1,0 +1,24 @@
+CREATE TABLE Coach(
+    tname VARCHAR(30),
+    name VARCHAR(30),
+    stat NUMBER
+);
+
+CREATE TABLE Player(
+    tname VARCHAR(30),
+    name VARCHAR(30),
+    bnumber NUMBER,
+    position VARCHAR(30),
+    stat NUMBER,
+    inumber NUMBER
+);
+
+CREATE TABLE Schedule(
+    competition VARCHAR(30),
+    sdate NUMBER,
+    stime VARCHAR(30),
+    swhere VARCHAR(30),
+    awayteam  VARCHAR(30),
+    home NUMBER,
+    away NUMBER
+);

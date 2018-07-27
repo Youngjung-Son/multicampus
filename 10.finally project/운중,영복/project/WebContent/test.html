@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+  <a href="error.jsp" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="img/multicampus.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <a href="http://www.multicampus.com/"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Learn BigData</button></a>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h1><b>FC 멀티캠퍼스</b></h1><br><br>
+<h4><b>비상하라! 포효하라! 너의 날개를 펼쳐라!</b></h4>
+<h5><b>     FC 멀캠과 함께하라!</b></h5>
+
+
+<div class="w3-row w3-left-align">
+<h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;감독 및 코치</b></h1><br>
+</div>
+
+<div class="w3-quarter w3-center">
+  <a href="http://www.naver.com/"><img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3><b>감독 김혜경</b></h3>
+  <p><b>자바라 뛰어라</b></p>
+</div>
+<div class="w3-quarter w3-center">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>코치 스티븐 잡스</b></h3>
+  <p><b>화이팅하세여~</b></p>
+</div>
+<div class="w3-quarter w3-center">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>코치 빌 게이츠</b></h3>
+  <p><b>고생하세여~</b></p>
+</div>
+<div class="w3-quarter w3-center">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>명예 코치 김한림</b></h3>
+  <p><b>ㅋㅋㅋㅋㅋㅋㅋ</b></p>
+</div>
+
+<div class="w3-row w3-left-align">
+<!-- 소개 -->
+<h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;선수</b></h1><br>
+</div>
+
+<div class="w3-quarter">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>GK 한권열</b></h3>
+  <p><b>No pain No gain</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/sangman.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>DF 정상만</b></h3>
+  <p><b>환상적 손놀림</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>DF 남우현</b></h3>
+  <p><b>내 이름은 코난</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/donghoon.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>DF 이동훈</b></h3>
+  <p><b>미스트 뿌려드릴까요?</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/kyoungjoon.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>DF 이경준</b></h3>
+  <p><b>Stop Thinking</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/yoongil.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>MF 허윤길</b></h3>
+  <p><b>돌았나?</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/induck.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>MF 여인덕</b></h3>
+  <p><b>착하게 살자</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/inbum.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>MF 황인범</b></h3>
+  <p><b>환상적 손놀림</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/Kyoungnam.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>MF 김경남</b></h3>
+  <p><b>필사즉사 필생즉사</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>FW 이영복</b></h3>
+  <p><b>에이취!</b></p>
+</div>
+<div class="w3-quarter">
+  <img src="img/kwonyeol.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3><b>FW 여운중</b></h3>
+  <p><b>환상적 발놀림</b></p>
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2><b>fc 멀티캠퍼스</b></h2>
+<h2><b>훈련모습</b></h2></div>
+
+
+<div class="w3-quarter">
+<div class="w3-card w3-white"> 
+  <img src="img/pict1.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>우리들의 훈련 사진</h3>
+  <h4>비상하라</h4>
+  <p>공부해라</p>
+  <p>더해라</p>
+  <p>더 더 해라</p>
+  <p>토할때까지 해라</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="img/pict2.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>회식사진</h3>
+  <h4>포효하라</h4>
+  <p>먹어라</p>
+  <p>마셔라</p>
+  <p>부어라</p>
+  <p>들이켜라</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="img/pict3.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>감독님과 함께</h3>
+  <h4>포효하라</h4>
+  <p>전진하라</p>
+  <p>뛰어라</p>
+  <p>싸워라</p>
+  <p>이겨라</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2><b>PRICING</b></h2>
+    <h3><b>이적시장</b></h3><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">김혜경</p>
+        </li>
+        <li class="w3-padding-16"><b>나이 : 26</li></b>
+        <li class="w3-padding-16"><b>국적 : 한국</li></b>
+        <li class="w3-padding-16"><b>의지 : 上</li></b>
+        <li class="w3-padding-16"><b>노력 : 上</li></b>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 100,000,000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">김경남</p>
+        </li>
+        <li class="w3-padding-16"><b>나이 : 26</li></b>
+        <li class="w3-padding-16"><b>국적 : 한국</li></b>
+        <li class="w3-padding-16"><b>학습 의지 : 中</li></b>
+        <li class="w3-padding-16"><b>노력 : 上</li></b>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 1</h2>
+          <span class="w3-opacity">per year</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">여운중</p>
+        </li>
+        <li class="w3-padding-16"><b>나이 : 28</li></b>
+        <li class="w3-padding-16"><b>국적 : 한국</li></b>
+        <li class="w3-padding-16"><b>라이벌 : 김경남</li></b>
+        <li class="w3-padding-16"><b>코딩능력 : 上</li></b>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 1.5</h2>
+          <span class="w3-opacity">per year</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;서울특별시 군자동 동일로 24-1 b104호</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;010 - 4158 - 2754</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;dkdlrnf0@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+ </footer>
+
+
+
+</body>
+</html>
