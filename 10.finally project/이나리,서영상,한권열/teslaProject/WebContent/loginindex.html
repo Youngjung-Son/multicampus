@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+  <title>Tesla Login</title>
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <div class="cont_principal">
+<div class="cont_centrar">
+
+  <div class="cont_login">
+
+<div class="cont_info_log_sign_up">
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+        
+        <h2>LOGIN</h2>  
+  <p>로그인</p> 
+  <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div>
+  </div>
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>SIGN UP</h2>
+
+  
+  <p>회원가입</p>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+</div>
+  </div>
+       </div>
+
+    
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+       <img src="https://insideevs.com/wp-content/uploads/2016/09/2120x920_MX-ForestSun.jpg" alt="" />
+       </div>
+       
+    </div>
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="https://insideevs.com/wp-content/uploads/2017/12/Tesla-Infotainment-Touchscreen.jpg" alt="" />
+       </div>
+ <div>
+	<form action="cont"  class="cont_form_login" method="post">
+		<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+		   <h2>LOGIN</h2>
+		   		<input type="hidden" name="command" value="login">
+		 		<input type="text" name="cust_email" placeholder="Email" />
+				<input type="password" name="cust_pw" placeholder="Password" />
+				<button type="submit" value="LOGIN" class="btn_login" onclick="cambiar_login()">LOGIN</button>
+	</form>
+  </div> 
+  
+   <div>
+   <form action="cont" class="cont_form_sign_up" method="post">
+			<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     		<h2>SIGN UP</h2>
+     			<input type="hidden" name="command" value="register">
+				<input type="text" name="cust_email" placeholder="Email" />
+				<input type="text" name="cust_name" placeholder="User" />
+				<input type="password" name="cust_pw" placeholder="Password" />
+				<input type="text" name="serialno" placeholder="Serial Number" />
+				<button type="submit" class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+	</form>
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
