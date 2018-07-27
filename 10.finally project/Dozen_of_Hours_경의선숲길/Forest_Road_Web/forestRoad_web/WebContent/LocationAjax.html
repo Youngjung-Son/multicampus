@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>LocationAjax.html</title>
+</head>
+<body>
+	
+	
+	<button onclick="loadDoc()">비동기요청</button>
+
+	<br><hr><br>
+	<div id="dataView"></div>
+	
+	
+	<script type="text/javascript">
+		function loadDoc() {
+			var xhttp = new XMLHttpRequest();
+			
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					
+					var data = this.responseText;
+					data = eval(data);    //포맷이 배열 구조의 문자열일 경우 배열 객체로 반환
+					data = JSON.parse(data);  // 배열도 반환 가능.
+					alert(data);
+					
+					//document.getElementById("dataView2").innerText = data2+" "+data3;
+					
+				}
+			};
+			xhttp.open("GET", "js7AjaxRes.jsp", true);
+			xhttp.send();
+		}
+	</script>
+	
+	
+</body>
+</html>
