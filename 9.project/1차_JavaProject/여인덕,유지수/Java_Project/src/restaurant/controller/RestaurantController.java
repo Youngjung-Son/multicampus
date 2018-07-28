@@ -5,6 +5,7 @@ import restaurant.view.EndView;
 
 public class RestaurantController {
 	RestaurantModel one= new RestaurantModel();
+	
 	public void create() {
 		System.out.println("추가할 매장을 입력해 주세요.");
 		System.out.println("(업소명,영업자 성명,소재지명,전화번호,음식 카테고리,메인메뉴)");

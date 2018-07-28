@@ -7,6 +7,7 @@ public class RestaurantDTO {
 	private String telephone_number;
 	private String food_type;
 	private String main_dish;
+	
 	public String getRestaurant_name() {
 		return restaurant_name;
 	}
